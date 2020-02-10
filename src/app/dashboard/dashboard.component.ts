@@ -21,6 +21,7 @@ export class DashboardComponent implements OnInit {
     this.http.get<any>(this.apiUrl).subscribe(data => {
       this.APIData = data.results;
       console.log("API Data ", this.APIData);
+
     })
 
   }

@@ -36,6 +36,7 @@ h4 {
   min-width: 120px;
   background-color: #3f525c;
   border-radius: 2px;
+  margin:15px;
 }
 .module:hover {
   background-color: #eee;
