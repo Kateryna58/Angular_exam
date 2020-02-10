@@ -1,0 +1,18 @@
+<h3>Top Contacts</h3>
+<div class="grid grid-pad">
+    <a *ngFor="let contact of contacts" class="col-1-4" routerLink="/detail/{{contact.id}}">
+        <div class="module hero">
+            <h4>{{contact.name}}</h4>
+        </div>
+    </a>
+</div>
+<hr />
+<div class="container" *ngFor="let item of APIData">
+    <div>
+        {{item.name}}
+        {{item.height}}
+        {{item.mass}}
+        {{item.hair_color}}
+        {{item.skin_color}}
+    </div>
+</div>
