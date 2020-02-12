@@ -8,13 +8,25 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ContactDetailComponent } from './contact-detail/contact-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { PlanetsComponent } from './planets/planets.component';
+import { PeopleComponent } from './people/people.component';
+import { SpaceshipsComponent } from './spaceships/spaceships.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
+import { FilmsComponent } from './films/films.component';
+import { SpeciesComponent } from './species/species.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactsComponent,
     ContactDetailComponent,
-    DashboardComponent
+    DashboardComponent,
+    PlanetsComponent,
+    PeopleComponent,
+    SpaceshipsComponent,
+    VehiclesComponent,
+    FilmsComponent,
+    SpeciesComponent
   ],
   imports: [
     BrowserModule,

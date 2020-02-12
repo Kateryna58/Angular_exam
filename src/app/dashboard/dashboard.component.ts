@@ -14,7 +14,7 @@ export class DashboardComponent implements OnInit {
 
   APIData: any[];
   constructor(private contactService: ContactService, private http: HttpClient) { }
-  apiUrl = `https://swapi.co/api/people`;;
+  apiUrl = `https://swapi.co/api/species`;
 
   ngOnInit() {
     this.getContacts();
