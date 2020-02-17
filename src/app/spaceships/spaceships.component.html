@@ -1,1 +1,19 @@
-<p>spaceships works!</p>
+<div class="container" *ngFor="let item of APIData">
+    <div class="module hero">
+        {{item.name}}
+        {{APIData.indexOf(item)}}
+        <!-- Height: {{item.height}}-
+            Mass: {{item.mass}}-
+            Hair color: {{item.hair_color}}-
+            {{item.skin_color}}-
+            {{item.eye_color}}-
+            {{item.birth_year}}-
+            {{item.gender}}- -->
+        <!-- {{item.homeworld}}- -->
+
+        <!-- {{item.films}} -->
+    </div>
+    <div>
+        <img src="{{item.image}}" alt="" />
+    </div>
+</div>

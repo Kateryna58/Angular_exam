@@ -1,4 +1,4 @@
-<div class="container" *ngFor="let item of APIData">
+<div class="container" *ngFor="let item of APIData;">
     <div class="module hero">
         {{item.name}}
         <!-- Height: {{item.height}}-
@@ -12,7 +12,7 @@
 
         <!-- {{item.films}} -->
     </div>
-</div>
-<div class="container">
-    <img src="{{Img}}" alt="" />
+    <div>
+        <img src="{{item.image}}" alt="" />
+    </div>
 </div>

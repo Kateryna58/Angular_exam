@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PlanetsComponent } from './planets/planets.component';
 import { PeopleComponent } from './people/people.component';
+import { SpaceshipsComponent } from './spaceships/spaceships.component';
 import { FilmsComponent } from './films/films.component';
 import { ContactDetailComponent } from "./contact-detail/contact-detail.component";
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'contacts', component: ContactsComponent },
   { path: 'people', component: PeopleComponent },
   { path: 'planets', component: PlanetsComponent },
+  { path: 'spaceships', component: SpaceshipsComponent },
   { path: 'films', component: FilmsComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: ContactDetailComponent },
