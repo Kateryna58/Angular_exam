@@ -1,19 +1,11 @@
-<div class="container" *ngFor="let item of APIData">
-    <div class="module hero">
-        {{item.name}}
-        {{APIData.indexOf(item)}}
-        <!-- Height: {{item.height}}-
-            Mass: {{item.mass}}-
-            Hair color: {{item.hair_color}}-
-            {{item.skin_color}}-
-            {{item.eye_color}}-
-            {{item.birth_year}}-
-            {{item.gender}}- -->
-        <!-- {{item.homeworld}}- -->
+<div class="container">
+    <div class="row">
+        <div class="items" *ngFor="let item of APIData">
+            <img src="{{item.image}}" alt="" />
+            <div class="module hero">
+                <div>{{item.name}}</div>
+            </div>
+        </div>
+    </div>
 
-        <!-- {{item.films}} -->
-    </div>
-    <div>
-        <img src="{{item.image}}" alt="" />
-    </div>
 </div>

@@ -29,19 +29,17 @@
     width: 25%;
   }
   .module {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     color: #eee;
-    max-height: 120px;
-    min-width: 120px;
+    max-width: 200px;
     background-color: #3f525c;
     border-radius: 2px;
-    margin:15px;
   }
-  .module:hover {
+  .items:hover {
     background-color: #eee;
     cursor: pointer;
-    color: #607d8b;
+    opacity:0.5;
   }
   .grid-pad {
     padding: 10px 0;
@@ -50,15 +48,31 @@
     padding-right: 20px;
   }
   @media (max-width: 600px) {
-    .module {
+    .module,.items img {
       font-size: 10px;
-      max-height: 75px; }
+      max-width: 55px; }
   }
   @media (max-width: 1024px) {
     .grid {
       margin: 0;
     }
-    .module {
-      min-width: 60px;
+    .module,.items img {
+      max-width: 150px;
     }
+  }
+  img{
+    max-width:200px;
+    height:auto;
+  }
+  .items{
+    display:inline-block;
+    position: relative;
+    margin: 5px;
+    text-align:center;
+  }
+  .items img{
+    background-position-y:0;
+  }
+  body{
+    background-color: black;
   }
