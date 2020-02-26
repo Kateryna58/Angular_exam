@@ -1,24 +1,13 @@
-<!-- <h3>Top Contacts</h3>
-<div class="grid grid-pad">
-    <a *ngFor="let contact of contacts" class="col-1-4" routerLink="/detail/{{contact.id}}">
-        <div class="module hero">
-            <h4>{{contact.name}}</h4>
-        </div>
-    </a>
-</div>
-<hr /> -->
-<div class="container" *ngFor="let item of APIData">
-    <div class="module hero">
-        {{item.name}}
-        <!-- Height: {{item.height}}-
-        Mass: {{item.mass}}-
-        Hair color: {{item.hair_color}}-
-        {{item.skin_color}}-
-        {{item.eye_color}}-
-        {{item.birth_year}}-
-        {{item.gender}}- -->
-        <!-- {{item.homeworld}}- -->
-
-        <!-- {{item.films}} -->
-    </div>
+<div class="container">
+    <!-- <img src="https://pngimg.com/uploads/star_wars_logo/star_wars_logo_PNG42.png" alt=""> -->
+    <h1>What is this?</h1>
+    <h3>Do you have trouble remembering names, but are great at remembering faces? Me too. That is why I created this
+        web app. Everything is click based, so if you are interested in seeing all the characters from the Star Wars
+        films, click the characters category. After that, simply click on any picture to learn more about that
+        character's physical characteristics, related films, planets, vehicles, etc.</h3>
+    <h1>Why is there unknown info?
+    </h1>
+    <h3>This app utilizes the Star Wars API, so the information displayed in this app will be updated as the API is
+        updated. I will be making other updates here and there, so check back often. In the future, I look to include a
+        short bio for each character.</h3>
 </div>
