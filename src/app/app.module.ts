@@ -4,8 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { ContactDetailComponent } from './contact-detail/contact-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PlanetsComponent } from './planets/planets.component';
@@ -14,19 +12,19 @@ import { SpaceshipsComponent } from './spaceships/spaceships.component';
 import { VehiclesComponent } from './vehicles/vehicles.component';
 import { FilmsComponent } from './films/films.component';
 import { SpeciesComponent } from './species/species.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactsComponent,
-    ContactDetailComponent,
     DashboardComponent,
     PlanetsComponent,
     PeopleComponent,
     SpaceshipsComponent,
     VehiclesComponent,
     FilmsComponent,
-    SpeciesComponent
+    SpeciesComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
